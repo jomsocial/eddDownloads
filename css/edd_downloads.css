@@ -1,0 +1,107 @@
+#edd_downloads_purchase_receipt_products{
+	width:100%;
+	border:1px solid #dcdbe9;
+}
+
+#edd_downloads_license_keys{
+	width:100%;
+}
+
+.edd_downloads_domains {
+	position: relative;
+}
+
+.edd_downloads_domains small {
+	position: absolute;
+	top: -20px;
+	left: 0;
+	display: block;
+	font-size: 1.2rem
+}
+
+.edd_downloads_license_row .input {
+	padding: 6px;
+	width: 150px;
+}
+
+.edd_downloads_table tbody {
+	font-size: 16px;
+}
+
+.edd_downloads_receipt_row td{
+	padding:20px;
+	border:1px solid #dcdbe9;
+	vertical-align:top;
+}
+
+.edd_downloads_license_header{
+	background-color:#f5f5f5;
+}
+
+.edd_downloads_license_header th{
+	padding:5px 10px;
+	font-weight:700;
+}
+
+.edd_downloads_license_row td{
+	padding:20px 0 20px 0;
+	border-bottom:1px solid #dcdbe9;
+	vertical-align:top;
+}
+
+.edd_downloads_license_renew form {
+	display: inline-block;
+}
+
+.edd_downloads_license_number{
+	white-space: nowrap;
+	font-weight:bold;
+}
+
+.edd_downloads_license_number span {
+	color: #454545;
+	display: block;
+}
+
+.edd_downloads_expired{
+	color:#fb0002;
+}
+
+.edd_downloads_active{
+	color:#438a00;
+}
+
+.edd_downloads_latest_version{
+	color:#747280;
+}
+
+.edd_downloads_enter_domain{
+	color:#fb0002;	
+}
+
+.edd_downloads_no_replies{
+	width:100%;
+	height:50px;
+	text-align:center;
+	background-color:#FF0;
+	padding-top:15px;
+	font-weight:bold;
+}
+
+.edd_error {
+	color:#F00;
+}
+
+@media screen and (min-width: 768px) {
+	.edd_downloads_license_number span {
+		display: inline-block;
+	}
+
+	.edd_downloads_file_name {
+		font-size: 20px;
+	}
+
+	.edd_downloads_license_row .input {
+		width: 80%;
+	}
+}
